@@ -1,0 +1,38 @@
+html {
+background-image: url("http://wac.450f.edgecastcdn.net/80450F/1079ishot.com/files/2011/12/content_image-004195.jpg?w=600&h=0&zc=1&s=0&a=t&q=89");
+background-size: cover;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+#ice-cream {
+  position: relative;
+  right: 400px;
+  bottom: 250px;
+}
+
+#high-school {
+  position: relative;
+  left: 800px;
+  border: 3px dashed orange;
+  border-radius: 25%;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: "Comic Sans MS";
+  border: 1px solid hotpink;
+}
+
+.link-list {
+  display: inline;
+  border: 2px double green;
+  width: 350px;
+}
