@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Drake's Very Ugly Webpage</title>
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
   </head>
   <body>
     <h1>Aubrey Drake Graham's Webpage</h1>
@@ -11,19 +12,25 @@
 
     <hr/>
 
-    <h3>
+    <h3 class>
 
-      <p>
+      <p class="quotes">
         "Really too young to be feeling this old"
       </p>
 
-      <p>
+      <p class="quotes">
         "Dream big, sleep late"
       </p>
 
-      <p>
+      <p class="quotes">
         "YOLO"
       </p>
+
+      <p id="myBlinkingDiv">
+        Summer 16
+      </p>
+
+      <marquee behavior="slide" direction="left">Running through the 6 with my woes</marquee>
 
   </h3>
 
@@ -41,7 +48,8 @@
     </li>
   </ul>
 
-  <img src="https://s-media-cache-ak0.pinimg.com/564x/56/6a/51/566a517e48782cac66e855d474da8be8.jpg" id="high-school">
+  <img id="high-school" src="https://s-media-cache-ak0.pinimg.com/564x/56/6a/51/566a517e48782cac66e855d474da8be8.jpg">
+  <button id="switch-photo" type="button" name="button" onclick="changePhoto()">Switch Photos!</button>
 
   <a href="https://www.youtube.com/watch?v=pjMLvHQJU40">
     <img src="http://data.whicdn.com/images/17409666/superthumb.jpg" id="ice-cream">
@@ -53,6 +61,13 @@
   <button type="button" name="button">Submit</button>
 
 </form>
+
+<footer>
+<img src="under_construction.gif"/>
+</footer>
+
+<script src="extras.js"></script>
+
 
   </body>
 </html>
